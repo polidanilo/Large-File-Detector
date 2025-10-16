@@ -1,5 +1,5 @@
-# nome e cognome: Danilo Poli
-# matricola: [Il tuo numero di matricola]
+# nome e cognome: danilo poli
+# matricola: 185924
 # path: ~/large-file-detector/app.py
 
 import argparse
@@ -139,3 +139,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
