@@ -27,7 +27,9 @@ The script requires exactly four mandatory arguments:
 
 ```
 $ python3 app.py --target <ABSOLUTE_PATH> --size <BYTES> --interval <SECONDS> --log <LOG_DIR_PATH>
-Example:Bash# Monitor the user's documents for files >= 10MB (10485760 bytes) every 600 seconds (10 minutes), logging to the home directory.
+
+Example: Monitor the user's documents for files >= 10MB (10485760 bytes)
+         every 600 seconds (10 minutes), logging to the home directory.
 $ python3 app.py \
     --target /home/user/Documents \
     --size 10485760 \
