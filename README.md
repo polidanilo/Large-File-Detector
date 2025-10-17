@@ -38,14 +38,12 @@ $ python3 app.py \
 ### Systemd Service Deployment
 The service unit large-file-detector.service is configured to run automatically using specific parameters:
 
-```
 | Parameter | Value | Description |
 | :----- | :----- | :----- |
 | `--target` | `%h/docs` | The target directory to scan (e.g., `~/docs`). |
 | `--size` | `100` | Files must be >= 100 bytes to be logged. |
 | `--interval` | `300` | The scan is repeated every 300 seconds (5 minutes). |
 | `--log` | `%h` | The log file (`large-file-detector.log`) is saved in the user's home directory. |
-```
 
 ### Service Installation Commands
 To deploy and start the daemon as a Systemd User Service:
