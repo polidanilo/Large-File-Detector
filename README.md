@@ -62,6 +62,3 @@ systemctl --user start large-file-detector.service
 # Visualizza lo stato e i log
 journalctl --user -u large-file-detector.service -f
 ```
-
-# Visualizza lo stato e i log
-journalctl --user -u large-file-detector.service -f
