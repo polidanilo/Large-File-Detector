@@ -1,5 +1,5 @@
 # Large-File-Detector (Python Daemon and Systemd Service)
-This project is my solution to the practical exam for the University of Ferrara (UNIFE) course "System, Network Administration and Cybersecurity", Academic Year 2024/2025.
+This project is my solution to the practical exam for the University of Ferrara (UNIFE) course "Systems, Network Administration and Cybersecurity", Academic Year 2024/2025.
 
 The goal was to implement a robust, low-resource **Python Daemon** to monitor the filesystem periodically, coupled with a **Systemd User Service** for persistent, automatic execution in a modern Linux environment.
 
